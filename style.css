@@ -9,6 +9,8 @@ coloque nas sessões indicadas*/
     /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
    --cor-de-fundo: #F5F5F5;
    --cor-de-link: #000;
+   --azul-10: #EAF2FD;
+
 }
 
 body {
@@ -41,51 +43,51 @@ https://en.bem.info/methodology/quick-start/*/
 
 /*Sección Menu*/
 
-section.menu{
+/* section.menu{
 
-}
+} */
 
 /*Sección Title*/
 
-section.title{
+/* section.title{
 
-}
+} */
 
 /*Sección About*/
 
-section.about{
+/* section.about{
 
-}
+} */
 
 /*Sección Hobbies*/
 
-section.hobbies{
+/* section.hobbies{
     
-}
+} */
 
 /* Experiencia Académica*/
 
-section.academic{
+/* section.academic{
 
-}
+} */
 
 /* experiencia*/
 
-section.experience{
+/* section.experience{
 
-}
+} */
 
 /*Contacto*/
 
-section.formcontato{
+/* section.formcontato{
 
-}
+} */
 
 /*footeer*/
 
-section.footer{
+/* section.footer{
    
-}
+} */
 
 /* Vamos a desafiarnos trabajando con responsividad?
 Utiliza las referencias de los breakpoints @media abajo */
