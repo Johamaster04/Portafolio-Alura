@@ -273,12 +273,31 @@
                         antes posible. </h3>
                 </div>
                 <form class="formcontato__form" name="form">
-                    <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre">
-                    <input class="formcontato__input" type="email" name="email" placeholder="E-mail">
-                    <input class="formcontato__input" type="text" name="asunto" placeholder="Assunto">
-                    <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje"
-                        placeholder="Mensaje"></textarea>
+                    <div class="formcontacto__input__container">
+                        <input id="name" class="formcontato__input" type="text" name="nombre" placeholder="Nombre" required
+                            data-tipo="nombre">
+                        <label for="name" class="formcontato__input__label">Nombre</label>
+                        <span class="input-message-error">Este campo no es valido</span>
+                    </div>
+                    <div class="formcontacto__input__container">
+                    <input class="formcontato__input" type="email" name="email" placeholder="E-mail"required data-tipo="email">
+                    <label for="E-mail" class="formcontato__input__label">Email</label>
+                    <span class="input-message-error">Este campo no es valido</span>
+                </div>
+                <div class="formcontacto__input__container">
+                    <input class="formcontato__input" type="text" name="asunto" placeholder="Assunto" required data-tipo="asunto">
+                    <label for="Assunto" class="formcontato__input__label">Asunto</label>
+                    <span class="input-message-error">Este campo no es valido</span>
+                </div>
+
+                <div class="formcontacto__input__container">
+                    <textarea class="formcontato__textarea" rows="5" cols="40" id="mensaje" name="mensaje" placeholder="Mensaje"
+                        required data-tipo="textareaMensaje"></textarea>
+                    <label for="mensaje" class="formcontato__input__label">Mensaje</label>
+                    <span class="input-message-error">Este campo no es valido</span>
                     <button type="submit" class="formcontato__botao">Enviar mensaje</button>
+                </div>
+                
                 </form>
             </div>
         </div>
@@ -292,9 +311,8 @@
         </div>
     </section>
     </div>
-
-
+    
  <!-- Script del documento JavaScript -->
-<script src="validacion.js"></script>
+<script type="module" src="app.js"></script>
 </body>
 </html>
